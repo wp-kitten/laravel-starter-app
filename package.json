@@ -1,0 +1,44 @@
+{
+    "name": "laravel-starter-app",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://laravel-starter-app.local",
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "dependencies": {
+        "bootstrap": "^5.1.1",
+        "cross-env": "^7.0.3",
+        "jquery": "^3.6",
+        "popper.js": "^1.16.1",
+        "react": "^17.0.2",
+        "react-bootstrap": "^1.6.3",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.13.13",
+        "laravel-mix": "^6.0.25",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
